@@ -19,7 +19,7 @@ public class Log4jBasicConfiguratorExample {
 		//BasicConfigurator.configure();
 		
 		Logger log1=Logger.getLogger(Log4jBasicConfiguratorExample.class);
-		System.out.println("*****");
+		System.out.println("****");
 		BasicConfigurator.configure(new ConsoleAppender(new PatternLayout("%d{HH:mm} %-5p %F %50.50c - %m%n")));
 		
 		

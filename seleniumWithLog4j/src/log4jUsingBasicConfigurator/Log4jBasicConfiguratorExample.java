@@ -19,7 +19,7 @@ public class Log4jBasicConfiguratorExample {
 		//BasicConfigurator.configure();
 		
 		Logger log1=Logger.getLogger(Log4jBasicConfiguratorExample.class);
-		System.out.println("***");
+		System.out.println("***11nov2017-2132***");
 		BasicConfigurator.configure(new ConsoleAppender(new PatternLayout("%d{HH:mm} %-5p %F %50.50c - %m%n")));
 		
 		
@@ -35,9 +35,5 @@ public class Log4jBasicConfiguratorExample {
 		driver.findElement(By.name("userName")).sendKeys("mercury");
 		driver.findElement(By.name("password")).sendKeys("mercury");
 		driver.findElement(By.name("login")).click();
-		
-		
-
 	}
-
 }
